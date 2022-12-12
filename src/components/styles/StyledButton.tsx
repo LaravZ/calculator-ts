@@ -4,6 +4,7 @@ const StyledButton = styled.button`
   background: ${props => {
     switch (props.color) {
       case "MEMORY":
+      case "CLEAR":
         return props.theme.colors.memory;
       case "NUMBER":
         return props.theme.colors.numbers;
@@ -11,7 +12,6 @@ const StyledButton = styled.button`
       case "PERCENTAGE":
       case "SQUARE_ROOT":
       case "DECIMAL":
-      case "CLEAR":
       case "CLEAR_ENTRY":
         return props.theme.colors.operators;
       case "CALCULATE":
