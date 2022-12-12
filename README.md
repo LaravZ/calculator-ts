@@ -1,5 +1,13 @@
-# TypeScript Calculator
+# Simplified TypeScript Calculator
 
+This is a simplified version of BillyBunn's repository meant for demonstration purposes.
+
+## How to run
+Ensure npm is installed, then run ```npm install && npm start```.
+
+## Original TypeScript Calculator
+
+This repository is a fork of BillyBunn's repository.
 A calculator inspired by the 1987 Dieter Rams-designed Braun ET66. Built in [TypeScript](https://www.typescriptlang.org/) with [React](https://reactjs.org/).
 
 [See it on CodeSandbox](https://codesandbox.io/s/typescript-calculator-cu45o)
